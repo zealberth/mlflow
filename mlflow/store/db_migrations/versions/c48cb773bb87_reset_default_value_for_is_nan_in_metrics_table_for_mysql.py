@@ -31,7 +31,7 @@ def upgrade():
             "is_nan",
             type_=sa.types.Boolean(create_constraint=True),
             nullable=False,
-            server_default="0",
+            existing_server_default="0",
         )
 
 
